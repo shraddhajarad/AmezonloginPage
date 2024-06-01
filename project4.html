@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlipkartPage</title>
+    <style>
+      /* flipcart web-page */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .parent {
+        height: 700px;
+        width: 810px;
+        border: 1px solid;
+        display: flex;
+        margin-top: 70px;
+      }
+      .box {
+        height: 700px;
+        width: 310px;
+        /* border: 1px solid; */
+      }
+      #box1 {
+        background-color: #2874f0;
+        color: white;
+      }
+      #box2 {
+        width: 540px;
+      }
+      #p1 {
+        height: 50px;
+        width: 190px;
+        /* border: 1px solid; */
+        margin-left: 40px;
+        margin-top: 5px;
+        font-size: 17px;
+      }
+      #p2 {
+        height: 170px;
+        width: 320px;
+        /* border: 1px solid; */
+        margin-left: 40px;
+        margin-top: 50px;
+      }
+      #img {
+        height: 200px;
+        width: 280px;
+        /* border: 1px solid; */
+        margin: 0 auto;
+        margin-top: 240px;
+        background-image: url(./flipkart2.PNG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 280px;
+      }
+      .c {
+        height: 30px;
+        width: 290px;
+        /* border: 1px solid; */
+      }
+      #b21 {
+        height: 240px;
+        width: 450px;
+        /* border: 1px solid; */
+        margin-top: 60px;
+        margin-left: 35px;
+      }
+      .cc {
+        height: 45px;
+        width: 450px;
+        /* border: 1px solid; */
+      }
+
+      #c21 {
+        color: rgb(44, 44, 128);
+        font-size: 20px;
+        height: 60px;
+      }
+      #input {
+        height: 30px;
+        width: 395px;
+        border: none;
+        border-bottom: 1px solid blue;
+      }
+      #c22 {
+        margin-top: 1px;
+        height: 30px;
+      }
+      #c23 {
+        font-size: 20px;
+      }
+      #c24 {
+        text-align: center;
+        /* justify-content: center; */
+        background-color: orangered;
+        color: white;
+        padding-top: 20px;
+        font-size: 21px;
+        margin-top: 15px;
+      }
+      .link {
+        text-decoration: none;
+        color: rgb(65, 120, 240);
+      }
+      #b22 {
+        height: 50px;
+        width: 400px;
+        /* border: 1px solid; */
+        margin: 0 auto;
+        margin-top: 370px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="parent">
+      <div id="box1" class="box">
+        <div id="p1"><h1>Login</h1></div>
+        <div id="p2">
+          <div id="c1" class="c"><h2>Get access to your</h2></div>
+          <div id="c2" class="c"><h2>Orders,Wishlist and</h2></div>
+          <div id="c3" class="c"><h2>Recommendations.</h2></div>
+        </div>
+        <div id="img"></div>
+      </div>
+      <div id="box2" class="box">
+        <div id="b21">
+          <div id="c21" class="cc">
+            <label for="name">Enter Email/Mobile Number</label>
+            <br />
+            <input type="text" id="input" />
+          </div>
+          <div id="c22" class="cc"></div>
+          <div id="c23" class="cc">
+            By Continuing,you agree to Flipkart's
+            <a href="#" class="link"> Terms of Use </a>and
+            <a href="#" class="link"> Privacy Policy </a>
+          </div>
+          <div id="c24" class="cc">Request OTP</div>
+        </div>
+        <div id="b22">
+          <a href="#" class="link"
+            ><h3>New to Flipkart ? Creat an Account.</h3></a
+          >
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
